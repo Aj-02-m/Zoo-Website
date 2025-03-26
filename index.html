@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Zoo Project(Bootstrap)</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ZOO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#aboutlink">About</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Animals
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-primary" href="mammals page/Mindex.html#MammalsPage">Mammals</a></li>
+                            <li><a class="dropdown-item text-primary" href="birds page/Bindex.html#BirdsPage">Birds</a></li>
+                            <li><a class="dropdown-item text-primary" href="aquatic page/Aindex.html#AquaticPage">Aquatic</a></li>
+                            <li><a class="dropdown-item text-primary" href="Reptiles page/Rindex.html#ReptilesPage">Reptiles</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="container-fluid p-0" id="home">
+        <div class="home text-center">
+            <h1 class="pt-5">Welcome to Zoo – Discover the Wild!</h1>
+            <h2>"Explore a world of fascinating creatures and learn about wildlife conservation"</h2>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about container-fluid mx-sd-0 p-0" id="aboutlink">
+        <h1 class="abHeading text-center display-4 fw-bold pt-1">About</h1>
+        <div class="ab text-center d-md-flex flex-column justify-content-center align-items-center pt-md-5">
+            <div class="d-none d-sm-block">
+                <h2 class="mt-md-3 pt-md-2">Zoo History:</h2>
+                <h3>[Zoo Name] was established in [Year] with the mission to educate the public about wildlife and
+                    promote conservation efforts. Over the years, we have grown into a sanctuary for over [Number]
+                    species of animals, providing them with a safe and natural habitat.</h3>
+                <h2>Animal Strength:</h2>
+                <h3>Our zoo is home to more than [Number] animals, including rare and endangered species from around the
+                    world. Join us in our efforts to protect these magnificent creatures.</h3>
+            </div>
+            <div class="d-block d-sm-none mt-5 pt-5">
+                <p>Welcome to [Zoo Name], a haven for wildlife and nature lovers! Home to diverse species, our zoo is
+                    dedicated to conservation, education, and unforgettable experiences. Explore, learn, and connect
+                    with the wonders of the animal kingdom! </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- animals -->
+    <div class="contianer" id="animals">
+        <h1 class="text-center display-4 pt-2 ">Animals</h1>
+        <hr class="w-5 mx-auto">
+
+        <div class="d-md-flex justify-content-center align-items-center pt-5 gap-0 gap-sm-3 ">
+            <div class="card1" style="width: 18rem;">
+                <img src="mammals.jpg" class="card-img-top d-none d-sm-block" alt="Mammals">
+                <div class="card-body">
+                    <h5 class="card-title">Mammals</h5>
+                    <p class="card-text d-none d-md-block">Warm-blooded animals with fur, giving birth
+                        to live young</p>
+                    <a href="mammals page/Mindex.html#MammalsPage" class="btn btn-primary btn-outline-info">To Know More</a>
+                </div>
+            </div>
+
+            <div class="card2" style="width: 18rem;">
+                <img src="birds.jpg" class="card-img-top d-none d-sm-block" id="bird" alt="Birds">
+                <div class="card-body">
+                    <h5 class="card-title">Birds</h5>
+                    <p class="card-text d-none d-md-block">Feathered creatures, most can fly, lay eggs
+                    </p>
+                    <a href="birds page/Bindex.html#BirdsPage" class="btn btn-primary btn-outline-info">To Know More</a>
+                </div>
+            </div>
+
+            <div class="card3" style="width: 18rem;">
+                <img src="Aquatic.jpg" class="card-img-top d-none d-sm-block " id="aqua" alt="Aquatic">
+                <div class="card-body">
+                    <h5 class="card-title">Aquatic</h5>
+                    <p class="card-text  d-none d-md-block" >Water-dwelling creatures with gills or fins
+                    </p>
+                    <a href="aquatic page/Aindex.html#AquaticPage" class="btn btn-primary btn-outline-info">To Know More</a>
+                </div>
+            </div>
+
+            <div class="card4 " style="width: 18rem;">
+                <img src="reptailes.jpg" class="card-img-top d-none d-sm-block" alt="Reptiles">
+                <div class="card-body">
+                    <h5 class="card-title">Reptiles</h5>
+                    <p class="card-text d-none d-md-block">Cold-blooded, scaly animals, most lay eggs.
+                    </p>
+                    <a href="Reptiles page/Rindex.html#ReptilesPage" class="btn btn-primary btn-outline-info">To Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- Pricing -->
+    <div class="contianer" id="pricing">
+        <h1 class="text-center display-3 pt-1" id="pricingHeading">Pricing</h1>
+      
+
+        <div class="px-20 d-md-flex flex-column justify-content-center align-items-center">
+            <table class="table table-hover ">
+                <thead class="table-dark">
+                    <tr id="animalsText">
+                        <th scope="col">Category</th>
+                        <th scope="col" class="d-md-flex justify-content-end pe-4">price</th>
+                    </tr>
+                </thead>
+                <tbody id="TableText" class="fw-bold">
+                    <tr>
+                        <td scope="row">Adults</td> 
+                        <td class="d-md-flex justify-content-end pe-4">₹500</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Children (Below 12)</td>
+                        <td class="d-md-flex justify-content-end pe-4">₹300</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Senior Citizens</td>
+                        <td class="d-md-flex justify-content-end pe-4">₹400</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Group Discounts</td>
+                        <td class="d-md-flex justify-content-end pe-4">Contact Us</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="bookbtn text-center mt-4 d-md-flex flex-column justify-content-center align-items-center">
+                <a href="#">
+                    <h4 class="btn btn-danger btn-outline-success">Book Tickets</h4>
+                </a>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact -->
+    <div class="contianer text-center text-light" id="Contact">
+        <h1 class="text-center display-3 pt-1">Contact Us</h1>
+        <hr class="w-5 mx-auto">
+        <p>Please provide your details our team will contact you!</p>
+
+        <form class="d-md-flex flex-column justify-content-center align-items-center">
+            <div class="mb-3">
+                <label for="" class="form-label">Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="">Number</label>
+                <input type="tel" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary btn-outline-info">Submit</button>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer text-center text-light ">
+        <div class="pt-5">
+            <p>© 2025 Your Company. All rights reserved.,<br>
+                [Zoo Address] <br>
+                Contact Us: +91 [Your Phone Number] | Email: contact@zooname.com
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

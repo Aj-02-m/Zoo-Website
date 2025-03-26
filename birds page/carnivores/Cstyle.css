@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carnivorousBirds{
+    background-image: url(bg.jpg);
+}

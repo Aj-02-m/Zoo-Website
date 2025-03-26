@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color  0.3s ease;
+}
+
+.home{
+    background-image: url(home\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.about{
+    background-image: url(about\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+
+.abHeading{
+    color: beige;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.ab{
+    color: beige;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgb(0,0,0,0.4);
+}
+
+#animals{
+    background-image: url(animals\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: beige;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#animalsText{
+    color: beige;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+#bird{
+    height: 190px !important;
+}
+
+#aqua{
+    height: 190px !important;
+}
+
+#pricing{
+    background-image: url(pricing\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 400px;
+    padding: 50px 0;
+}
+#pricingHeading{
+    color: beige;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+tbody,td,tfoot,th,thead,tr{
+    border-style: none;
+}
+
+.table{
+    width: 80%;
+}
+
+.table tbody tr:hover{
+    background-color : rgb(255,255,255,0.75);
+}
+#TableText{
+    color: beige;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,0.7);
+}
+.bookbtn{
+    width: 50%;
+    height: 50%;
+}
+
+#Contact{
+    background-image: url(contact\ us.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.footer{
+    background-image: url(footer\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    padding: 3rem;
+}
+
+#note{
+    background-color: #f0e68c;
+}

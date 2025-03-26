@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+    background-color: rgba(0,0,0,0.75);
+    transition: background-color 0.3s ease;
+}
+
+
+
+#home{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+#heading{
+    color: beige;
+    text-shadow: 2px 2px 2px rgb(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carnivores{
+    background-image: url(carnivores.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+#carnitext{
+    color:#F5F5DC;
+    text-shadow:rgba(0,0,0,0.5);
+    background-color: rgba(0,0, 0, 0.3);
+    
+}
+
+.Herbivores{
+    background-image: url(herbivores.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+#herbitext{
+    color: white;
+    text-shadow:rgba(0,0,0,0.5);
+    background-color: rgba(0,0, 0, 0.3);
+    
+}
+
+.Omnivores{
+    background-image: url(omnivores.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+footer{
+    background-image: url(../footer\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 60vh;
+}
+.pt-5 {
+    padding-top: 10rem !important;
+}
